@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Shadows+Into+Light');
 
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
 body {
 	background-image: url("../images/tileable_wood_texture.png");
     background-repeat: repeat;
@@ -21,7 +24,6 @@ body {
 .homework-card:hover {
 	background-color: #F5CB79;
 }
-
 .homework-number {
 	display: block;
 	/* font style */
