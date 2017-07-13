@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Shadows+Into+Light');
+
+body {
+	background-image: url("../images/tileable_wood_texture.png");
+    background-repeat: repeat;
+}
+.homework-card {
+	width: 200px;
+	height: 250px;
+	margin: 50px 0 0 100px;
+	background-color: #DBB66C;
+	/* font style */
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	line-height: 100px;
+	text-align: center;
+}
+.homework-card:hover {
+	background-color: #F5CB79;
+}
+
+.homework-number {
+	display: block;
+	/* font style */
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 50px;
+
+}
